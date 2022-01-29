@@ -1,0 +1,220 @@
+body {
+    background-color: rgb(175, 175, 175);
+    background-image: url("images/pattern.png");
+    background-size: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-family: 'DungGeunMo';
+}
+
+.bookcover {
+    background-color: black;
+    border-radius: 9px;
+    border: 1px solid #738186;
+    width: 960px;
+    height: 660px;
+    margin: 85px auto;
+    position: relative;
+  }
+
+.bookdot {
+    border: 1px dashed white;
+    position: absolute;
+    border-radius: 9px;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+}
+
+.page {
+    border: solid white;
+    border-radius: 9px;
+    position: absolute;
+    background-color: white;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+    display: flex;
+    padding: 15px;
+    flex-flow: row wrap;
+}
+
+.left-con {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    flex: 0.4;
+}
+
+.center-con {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+/* 왼쪽 */
+
+.count {
+    text-align: center;
+    padding: 6px;
+}
+
+.count span {
+    color: red;
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+
+.left_img {
+    flex: none;
+}
+
+.left_txt {
+    margin-top: 1.5rem;
+    font-size: larger;
+    line-height: 1.8;
+    flex: 1;
+    text-align: center;
+}
+
+.left_user {
+    flex:0.05;
+    font-size: 15px;
+}
+
+.wave_box {
+    flex: 0;
+    border: 1px solid #c9d4da;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 0.5rem;
+    position: relative;
+}
+
+.wave_box :hover > .dropdown-list {
+    display: block;
+}
+
+.dropdown-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    font-size: 1rem;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.dropdown-list > a {
+    display: block;
+    background-color: #f9f9f9;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-list > a:hover {
+    background-color: #f1f1f1;
+}
+
+/* 왼쪽 */
+
+/* 센터 */
+
+.main_title {
+    padding: 6px 0;
+    display: flex;
+}
+
+.hpname {
+    flex: 1;
+}
+
+.hpurl {
+    flex: 0.4;
+}
+
+.contens {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+/* 센터 */
+
+.head {
+    flex: 0.1;
+}
+
+.box {
+    background-color: white;
+    flex: 3;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+}
+
+/* 오른쪽 */
+
+.right-con {
+    flex: 0.15;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.btnstyle {
+    font-family: 'DungGeunMo';
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    position: absolute;
+    background-color: black;
+    border: none;
+    width: 100%;
+    height: 28px;
+    border-end-end-radius: 5px;
+    border-start-end-radius: 5px;
+}
+
+
+.btn-home {
+    top: 60px;
+}
+
+.btn-diary {
+    top: 98px;
+}
+
+.btn-photo {
+    top: 136px;
+}
+
+.btn-visit {
+   top: 174px;
+}
+
+.link {
+    text-decoration-line: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+

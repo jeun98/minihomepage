@@ -1,0 +1,44 @@
+.contens {
+    position: relative;
+}
+
+.scrollbox {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;
+}
+
+.photobox {
+    margin-bottom: 2rem;
+}
+
+.photo-title {
+    height: 2rem;
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    font-family: 'DungGeunMo';
+    font-size: 0.8rem;
+}
+
+.photo-contents {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-img {
+    margin-bottom: 1rem;
+}
+
+.photo-img > img {
+    max-width: 100%;
+}
+
+.photo-txt {
+    font-size:0.8rem;
+}

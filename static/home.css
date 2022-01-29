@@ -1,0 +1,61 @@
+
+
+.news_box {
+    flex: 0 0 auto;
+    margin-bottom: 2rem;
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.box_news {
+    flex: 1;
+}
+
+.update_box {
+    flex: 1;
+}
+
+.miniroom {
+    flex: 1;
+}
+
+.box_title {
+    border-bottom: 1px solid grey;
+    color: #3b87ab;
+}
+
+.news_row {
+    display: flex;
+    font-size: 0.85rem;
+    margin: 3px 0;
+}
+
+.news_menu {
+    padding: 0 6px;
+    margin-right: 6px;
+    color: white;
+    border-radius: 3px;
+}
+
+.menu_pic {
+    background-color: #e24949;
+}
+
+.menu_post {
+    background-color: #3a60be;
+}
+
+.menu_row {
+    display: flex;
+    border-bottom: 1px dashed grey;
+    margin: 3px 0;
+}
+
+.menu_item {
+    flex: 1;
+}
+
+.menu-num {
+    padding-left: 6px;
+    color: #003399;
+}
